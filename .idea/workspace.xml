@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57417c11-ce51-4233-9e68-53beba07fd8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/controllers/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/repositories/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/DTO/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/services/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/entities/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/entities/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/entities/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/entities/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/entities/OrderItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/entities/OrderItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/entities/OrderItemPK.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/entities/OrderItemPK.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/entities/Payment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/entities/Payment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/entities/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/entities/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/entities/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/controllers/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/controllers/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/controllers/ProductController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
