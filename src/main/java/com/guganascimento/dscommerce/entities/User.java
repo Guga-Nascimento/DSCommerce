@@ -1,7 +1,7 @@
 package com.guganascimento.dscommerce.entities;
 
-import jakarta.persistence.*;
 
+import jakarta.persistence.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -22,7 +22,7 @@ public class User {
     private String password;
 
     @OneToMany(mappedBy = "client")
-    private  List<Order> orders = new ArrayList<>();
+    private List<Order> orders = new ArrayList<>();
 
     public User(){
 
