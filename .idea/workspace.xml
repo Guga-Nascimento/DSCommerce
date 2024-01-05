@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57417c11-ce51-4233-9e68-53beba07fd8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/DTO/ProductDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/services/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/DTO/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/DTO/ProductDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/controllers/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/controllers/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/controllers/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/services/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/import.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/DTO/ProductDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/DTO/ProductDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/services/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/services/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/import.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +50,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/WS-INTELLIJ/DSCommerce"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/WS-INTELLIJ/DSCommerce&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="DscommerceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.guganascimento.dscommerce.DscommerceApplication" />
@@ -96,5 +100,10 @@
       <updated>1689718440941</updated>
     </task>
     <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DSCommerce$DscommerceApplication.ic" NAME="DscommerceApplication Coverage Results" MODIFIED="1702873108473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.guganascimento.dscommerce.*</FILTER>
+    </SUITE>
   </component>
 </project>
