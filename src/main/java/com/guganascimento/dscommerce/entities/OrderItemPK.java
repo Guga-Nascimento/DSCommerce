@@ -38,7 +38,7 @@ public class OrderItemPK {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
+        
         OrderItemPK that = (OrderItemPK) o;
 
         if (!Objects.equals(order, that.order)) return false;
