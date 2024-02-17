@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57417c11-ce51-4233-9e68-53beba07fd8b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/entities/Role.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/controllers/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/entities/OrderItemPK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/entities/OrderItemPK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/repositories/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/services/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/controllers/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/controllers/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/repositories/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/repositories/ProductRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/services/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/services/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/import.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
