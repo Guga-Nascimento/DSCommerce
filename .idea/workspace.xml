@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57417c11-ce51-4233-9e68-53beba07fd8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/projections/UserDetailsProjection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/config/ResourceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/config/customgrant/CustomPasswordAuthenticationConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/config/customgrant/CustomPasswordAuthenticationToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/config/customgrant/CustomUserAuthorities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/DscommerceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/DscommerceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/entities/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/entities/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/DscommerceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/DscommerceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/entities/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/entities/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/entities/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/import.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,18 +55,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.DscommerceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/WS-INTELLIJ/DSCommerce&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DscommerceApplication.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/WS-INTELLIJ/DSCommerce/src/main/java/com/guganascimento/dscommerce/config/customgrant",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\WS-INTELLIJ\DSCommerce\src\main\java\com\guganascimento\dscommerce\config\customgrant" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.guganascimento.dscommerce.services.exceptions" />
     </key>
