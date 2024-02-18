@@ -1,7 +1,9 @@
 package com.guganascimento.dscommerce.services;
 
+import com.guganascimento.dscommerce.DTO.CategoryDTO;
 import com.guganascimento.dscommerce.DTO.ProductDTO;
 import com.guganascimento.dscommerce.DTO.ProductMinDTO;
+import com.guganascimento.dscommerce.entities.Category;
 import com.guganascimento.dscommerce.entities.Product;
 import com.guganascimento.dscommerce.repositories.ProductRepository;
 import com.guganascimento.dscommerce.services.exceptions.DatabaseException;
@@ -71,5 +73,12 @@ public class ProductService {
         entity.setDescription(dto.getDescription());
         entity.setPrice(dto.getPrice());
         entity.setImgUrl(dto.getImgUrl());
+
+        entity.getCategories().clear();
+        for(CategoryDTO catDTO : dto.getCategories()){
+            Category cat = new Category();
+            cat.setId(catDTO.getId());
+            entity.getCategories().add(cat);
+        }
     }
 }
