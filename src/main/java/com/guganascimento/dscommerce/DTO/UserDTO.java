@@ -54,7 +54,7 @@ public class UserDTO {
     public LocalDate getBirthDate() {
         return birthDate;
     }
-    
+
     public List<String> getRoles() {
         return roles;
     }
