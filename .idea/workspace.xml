@@ -5,15 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57417c11-ce51-4233-9e68-53beba07fd8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/DTO/ClientDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/DTO/OrdemItemDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/DTO/OrderDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/DTO/PaymentDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/controllers/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/repositories/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/services/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/controllers/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/repositories/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/repositories/OrderItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/services/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/services/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/services/exceptions/ForbiddenException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/DTO/OrderItemDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/controllers/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/repositories/CategoryRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/repositories/OrderItemRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/services/AuthService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/services/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/services/exceptions/ForbiddenException.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/services/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/services/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/DTO/OrdemItemDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/DTO/OrderItemDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/DTO/OrderDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/DTO/OrderDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/DTO/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/DTO/ProductDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/DTO/ValidationError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/DTO/ValidationError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/controllers/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/controllers/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/controllers/handlers/ControllerExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/controllers/handlers/ControllerExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/services/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guganascimento/dscommerce/services/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/DTO/OrdemItemDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/DTO/OrderDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/DTO/OrderDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/DTO/ProductDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/DTO/ProductDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/controllers/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/controllers/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/controllers/handlers/ControllerExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/controllers/handlers/ControllerExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/entities/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/services/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/guganascimento/dscommerce/services/OrderService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,27 +76,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.DscommerceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/WS-INTELLIJ/DSCommerce/src/main/java/com/guganascimento/dscommerce/config/customgrant&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DscommerceApplication.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/WS-INTELLIJ/DSCommerce/src/main/java/com/guganascimento/dscommerce/config/customgrant",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\WS-INTELLIJ\DSCommerce\src\main\java\com\guganascimento\dscommerce\config\customgrant" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.guganascimento.dscommerce.repositories" />
       <recent name="com.guganascimento.dscommerce.controllers" />
-      <recent name="com.guganascimento.dscommerce.DTO" />
+      <recent name="com.guganascimento.dscommerce.services" />
+      <recent name="com.guganascimento.dscommerce.repositories" />
       <recent name="com.guganascimento.dscommerce.services.exceptions" />
+      <recent name="com.guganascimento.dscommerce.DTO" />
     </key>
   </component>
   <component name="RunManager">
